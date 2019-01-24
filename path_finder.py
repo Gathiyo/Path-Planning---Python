@@ -29,11 +29,6 @@ class PathFinder(object):
         off the grid or intersecting an obstacle.
         :rtype: A list of Waypoints.
 
-        More documentation at
-        https://docs.google.com/document/d/1b30L2LeKyMjO5rBeCui38j_HSUYgEGWXrwSRjB7AnYs/edit?usp=sharing
-        """
-
-        '''
         Here we Create start and end node
         '''
         start_node = self.Node(start_wp, None)
